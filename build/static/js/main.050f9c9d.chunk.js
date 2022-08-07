@@ -1,0 +1,2 @@
+(this["webpackJsonpcloudbet-odds-api-example"]=this["webpackJsonpcloudbet-odds-api-example"]||[]).push([[0],{10:function(e,t,c){"use strict";c.r(t);var n=c(1),s=c(3),d=c.n(s),o=(c(8),c(0));function i(){return Object(o.jsxs)("div",{className:"App",children:[Object(o.jsx)("h1",{children:"Hello CodeSandbox"}),Object(o.jsx)("h2",{children:"Start editing to see some magic happen!"})]})}var a=document.getElementById("root");d.a.render(Object(o.jsx)(n.StrictMode,{children:Object(o.jsx)(i,{})}),a)},8:function(e,t,c){}},[[10,1,2]]]);
+//# sourceMappingURL=main.050f9c9d.chunk.js.map
