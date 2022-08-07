@@ -1,43 +1,52 @@
-<!DOCTYPE html>
+
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- Add polyfill for IE11 support -->
+  <script
+  nomodule
+  type="text/javascript"
+  src="proxy-polyfill@0.3.2/proxy.min.js"
+  ></script>
+  <script
+  nomodule
+  type="text/javascript"
+  src="v3/polyfill.min.js"  ></script>
+   
+      
+      
+    
+    <link rel="icon" href="favicon.ico">
+    <link href="marvelapp-styleguide/fonts/fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/offlinePrototype.css" />
+    <title>Marvel 3</title>
+    
+      
+    
+    
+    
+      <script>
+          var data = {"scopes": ["company.folders:read", "workspace.members:add", "user:write", "company:write", "company.teams:write", "teams:read", "user:delete", "projects.comments:write", "billable", "comments:read", "workspace.members:remove", "company.members:write", "designs:read", "folders:write", "folders:delete", "projects:read", "projects:delete", "usertests:read", "projects:write", "company:read", "designs:write", "user:read", "company.projects:read", "usertests:write", "marvel"], "accessToken": "FZARbSlWAysoMEu7WqKWy4Vn2R1i0t", "expiry": 1643197876000.0};
+          localStorage.setItem("accessToken", JSON.stringify(data));
+      </script>
+    
+    
+  <script id="project_config" type="application/json">""</script>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="theme-color" content="#000000">
-	<!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-	<!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+  
+<script type="text/javascript" src="data.js"></script></head>
+  <body>
+    <div id="root" class="height-100"></div>
+    <script src="assets/offlinePrototype.js"></script>
+    
+  
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-	<title>React App</title>
-</head>
-
-<body>
-	<noscript>
-		You need to enable JavaScript to run this app.
-	</noscript>
-	<div id="root"></div>
-	<!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-</body>
-
+  </body>
 </html>

@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./main.css";
 import React from "react";
 import {
   MarketType,
