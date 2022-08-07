@@ -25,7 +25,7 @@ function getCompetition(competition, apiKey) {
     }
   );
 }
-const sports = ["soccer", "basketball", "tennis"];
+const sports = ["soccer","baseball"，"basketball", "tennis"];
 const sportMarkets = {
   soccer: [MarketType.soccer_match_odds],
   basketball: [MarketType.basketball_1x2],
